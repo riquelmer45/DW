@@ -1,0 +1,202 @@
+#head {
+    width: 100%;
+    height: 80px;
+}
+
+#body {
+    width: 100%;
+    height: 2750px;
+    background-image: url(img/GjrkLhP.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+#box {
+    width: 100%;
+    height: 1024px;
+}
+
+#logo {
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    background-image: url(img/film-cinema-television-android.png);
+    background-size: 600px;
+    background-position: left;
+    background-color: black;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+#menu {
+    margin: 30px;
+    font-size: 30px;
+    float: right;
+    border: 1px solid #000055;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    list-style: none;
+    border: 1px solid #a0a0aa;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #000055;
+}
+
+.menu li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: arial;
+}
+
+.menu li a:hover {
+    background-image: url(casa.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+.menu li #Terror:hover {
+    background-image: url(aincrad.jpg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+
+.menu li #Ação:hover {
+    background-image: url(ALO.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+
+.menu li #Dorama:hover {
+    background-image: url(GGO.jpg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    display: none;
+    background-color: rgb(156, 156, 156);
+}
+
+.menu li:hover ul,
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    border: 1px solid #000055;
+    display: block;
+    width: 150px;
+}
+
+.serie {
+    clear: both;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.serie h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.serie img {
+    width: 300px;
+    margin-right: 20px;
+    float: left;
+}
+
+.serie p {
+    font-size: 20px;
+}
+
+.serie2 {
+    clear: both;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.serie2 h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.serie2 img {
+    width: 300px;
+    margin-right: 20px;
+    float: right;
+}
+
+.serie2 p {
+    font-size: 20px;
+}
+
+.serie3 {
+    clear: both;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.serie3 h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.serie3 img {
+    width: 300px;
+    margin-right: 20px;
+    float: left;
+}
+
+.serie3 p {
+    font-size: 20px;
+}
+
+.serie4 {
+    clear: both;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.serie4 h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.serie4 img {
+    width: 300px;
+    margin-right: 20px;
+    float: right;
+}
+
+.serie4 p {
+    font-size: 20px;
+}
